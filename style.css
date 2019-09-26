@@ -2,21 +2,46 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 .wrapper {
   position: relative;
   max-width: 1300px;
-  height: 1847px;
+  height: 1400px;
   margin: 0 auto;
 }
 
+.background-image {
+  position: absolute;
+  background-image: url("./assets/img/main_section-1_background.png");
+  height: 566px;
+  width: 100%;
+}
+
 .wrapper__content {
+  position: relative;
   max-width: 1020px;
   margin: 0 auto;
 }
 
 /* HEADER */
+
+.header {
+  height: 168px;
+  position: relative;
+}
+
+.header__main {
+  position: relative;
+  top:28px;
+  display: flex;
+  align-items: center;
+  width: 317px;
+}
+
+.header__logo-png {
+}
 
 .header__logo-svg-1 {
   position: absolute;
@@ -24,7 +49,6 @@
   top: 26px;
   width: 87px;
   height: 87px;
-  z-index: 84;
 }
 
 .header__logo-svg-2 {
@@ -34,7 +58,6 @@
   top: 28px;
   width: 81px;
   height: 82px;
-  z-index: 83;
 }
 
 .header__logo-text {
@@ -46,11 +69,7 @@
   text-transform: uppercase;
   line-height: 1.2;
   text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.42);
-  position: absolute;
   letter-spacing: 0.27px;
-  left: 227.6px;
-  top: 51.371px;
-  z-index: 82;
 }
 
 /* HEADER NAVIGATION */
@@ -62,7 +81,6 @@
   width: 453px;
   height: 41px;
   background-color: #f5c506;
-  z-index: 1;
 }
 
 .navigation__menu {
@@ -136,31 +154,29 @@
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
-  z-index: 97;
 }
 
 /* MAIN */
 
+/* SECTION-1 */
+
 .section-1 {
-  background-image: url("./assets/img/main_section-1_background.png");
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  position: relative;
   width: 100%;
   height: 566px;
 }
 
 .section-1__video {
-    position: absolute;
-    left: 150px;
-    top: 168px;
-    z-index: 1;
 }
 
 .section-1__rectangle {
+  position: absolute;
+  height: 398px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 300px;
+  align-items: center;
+  z-index: 1;
 }
 
 .section-1__rectangle > a {
@@ -180,3 +196,11 @@
 .section-1__rectangle > a:hover {
   background-color:red;
 }
+
+.section-1__text {
+  position: absolute;
+  width: 392px;
+  height: 121px;
+}
+
+/* SECTION-2 */
