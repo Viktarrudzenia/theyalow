@@ -5,5 +5,144 @@
 }
 
 .wrapper {
+  position: relative;
   max-width: 1300px;
+  height: 1847px;
+  margin: 0 auto;
+}
+
+.wrapper__content {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header__logo-svg-1 {
+  position: absolute;
+  left: 138px;
+  top: 26px;
+  width: 87px;
+  height: 87px;
+  z-index: 84;
+}
+
+.header__logo-svg-2 {
+  opacity: 0.502;
+  position: absolute;
+  left: 141px;
+  top: 28px;
+  width: 81px;
+  height: 82px;
+  z-index: 83;
+}
+
+.header__logo-text {
+  font-size: 41px;
+  font-family: "Lucida Sans";
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.42);
+  position: absolute;
+  letter-spacing: 0.27px;
+  left: 227.6px;
+  top: 51.371px;
+  z-index: 82;
+}
+
+.navigation {
+  position: absolute;
+  top:71px;
+  right: 140px;
+  width: 453px;
+  height: 41px;
+  background-color: #f5c506;
+  z-index: 1;
+}
+
+.navigation__menu {
+  display: grid;
+  grid-template: 1fr / 172px 133px 148px;
+  height: 41px;
+  list-style-type: none;
+}
+
+.navigation__menu > li {
+  height: 100%;
+  position: relative;
+}
+
+.navigation__menu > li > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 17px;
+  font-family: "SegoeWP";
+  color: rgb(155, 125, 8);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.navigation__menu > li > img {
+  position: absolute;
+}
+
+.navigation__menu > li > a:hover {
+  background-color: red;
+}
+
+.navigation__list-1 > a {
+  padding-top: 12px;
+  padding-left: 68px;
+}
+
+.navigation__list-1__img {
+  top: 9px;
+  left: 37px;
+}
+
+.navigation__list-2 > a {
+  padding-top: 12px;
+  padding-left: 42px;
+}
+
+.navigation__list-2__img {
+  top: 9px;
+  left: 13px;
+}
+
+.navigation__list-3 > a {
+  padding-top: 12px;
+  padding-left: 49px;
+}
+
+.navigation__list-3__img {
+  top: 9px;
+  left: 16px;
+}
+
+/* --------------------------------------- */
+
+.Contact {
+  font-size: 17px;
+  font-family: "SegoeWP";
+  color: rgb(155, 125, 8);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  z-index: 97;
+}
+/* MAIN */
+
+.section-1 {
+  background-image: url("./assets/img/main_section-1_background.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 566px;
 }
