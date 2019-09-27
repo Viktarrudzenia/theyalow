@@ -30,37 +30,24 @@
 .header {
   height: 168px;
   position: relative;
+  bottom: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__main {
   position: relative;
-  top:28px;
+  top:10px;
   display: flex;
   align-items: center;
   width: 317px;
 }
 
-.header__logo-png {
-}
-
-.header__logo-svg-1 {
-  position: absolute;
-  left: 138px;
-  top: 26px;
-  width: 87px;
-  height: 87px;
-}
-
-.header__logo-svg-2 {
-  opacity: 0.502;
-  position: absolute;
-  left: 141px;
-  top: 28px;
-  width: 81px;
-  height: 82px;
-}
-
 .header__logo-text {
+  position: relative;
+  top: 4px;
+  left: 5px;
   font-size: 41px;
   font-family: "Lucida Sans";
   color: rgb(255, 255, 255);
@@ -75,9 +62,8 @@
 /* HEADER NAVIGATION */
 
 .navigation {
-  position: absolute;
-  top:71px;
-  right: 140px;
+  position: relative;
+  top: 30px;
   width: 453px;
   height: 41px;
   background-color: #f5c506;
@@ -166,12 +152,9 @@
   height: 566px;
 }
 
-.section-1__video {
-}
-
 .section-1__rectangle {
   position: absolute;
-  height: 398px;
+  height: 327px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -197,10 +180,32 @@
   background-color:red;
 }
 
+.section-1__content {
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .section-1__text {
-  position: absolute;
-  width: 392px;
-  height: 121px;
+  font-size: 63px;
+  letter-spacing: 1px;
+  font-family: "Asap";
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-1__text-1 {
+  color: #f5c506;
+}
+
+.section-1__text-2 {
+  color: #fff;
+}
+
+.section-1__last-content {
+  height: 71px;
 }
 
 /* SECTION-2 */
