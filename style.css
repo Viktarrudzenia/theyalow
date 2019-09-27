@@ -324,12 +324,40 @@
 /* SECTION 4 */
 
 .section-4 {
-  height: 499px;
-  background-color: grey;
+  height: 498px;
+  background-image: url(./assets/img/section-4__background.png);
 }
 
 .section-4__wrapper-content {
   position: relative;
   max-width: 1020px;
   margin: 0 auto;
+}
+
+.section-4__heading-text {
+  height: 94px;
+  background-color:blue;
+  font-size: 43px;
+  color: #f5c506;
+  font-family: "PT Sans";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.section-4__circle {
+  position: absolute;
+  height: 116px;
+  width: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #f5c506;
+  text-transform: uppercase;
+}
+
+.section-4__devices {
+  display:flex;
+  height: 404px;
+  background-color: blue;
 }
