@@ -1,3 +1,77 @@
+/* Open Sans latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(./assets/fonts/OpenSans-Regular.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Lucida Sans italic*/
+@font-face {
+  font-family: 'Lucida Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(./assets/fonts/LucidaSans-Italic.TTF) format('woff');
+}
+
+/* latin PT Sans Narrow */
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'), url(./assets/fonts/PTSans-NarrowBold.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin PT Sans */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('PT Sans'), local('PTSans-Regular'), url(./assets/fonts/PTSans-Regular.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin Asap */
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Asap Regular'), local('Asap-Regular'), url(./assets/fonts/Asap.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Segoe WP */
+@font-face {
+  font-family: 'Segoe WP';
+  src: local("Segoe WP"),
+       local("SegoeWP"),
+       url(./assets/fonts/SegoeWP.ttf);
+}
+
+/* Segoe WP light */
+@font-face {
+  font-family: 'SegoeWP-Light';
+  src: local("SegoeWP-Light"),
+       local("segoe-wp-light"),
+       url(./assets/fonts/segoe-wp-light.ttf);
+  font-weight: 300;
+}
+
+/* Segoe UI Light*/
+@font-face {
+  font-family: "SegoeUILight";
+  src: url("./assets/fonts/SegoeUI-Light.ttf") format("TrueType");
+  font-style: normal;
+  font-weight: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -86,7 +160,7 @@
   width: 100%;
   height: 100%;
   font-size: 17px;
-  font-family: "SegoeWP";
+  font-family: "Segoe WP";
   color: rgb(155, 125, 8);
   text-transform: uppercase;
   line-height: 1.2;
@@ -225,7 +299,7 @@
 .section-2__column-text {
   font-size: 27px;
   color: #000000;
-  font-family: "Segoe UI";
+  font-family: "SegoeUILight", sans-serif;
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
@@ -267,7 +341,7 @@
   font-size: 29px;
   line-height: 38px;
   color: #ffffff;
-  font-family: "Segoe WP";
+  font-family: "SegoeWP-Light";
   font-weight: 300;
 }
 
@@ -294,7 +368,7 @@
   letter-spacing: 1px;
   line-height: 38px;
   color: #ffffff;
-  font-family: "Segoe UI";
+  font-family: "SegoeUILight";
   font-weight: bold;
 }
 
@@ -303,7 +377,7 @@
   letter-spacing: 0px;
   line-height: 38px;
   color: #b26529;
-  font-family: "Segoe UI";
+  font-family: "SegoeUILight";
   text-transform: uppercase;
 }
 
