@@ -930,7 +930,7 @@
   
   .section-2__paper-airplane-svg {
     position: relative;
-    top: -16px;
+    top: -17px;
     left: -4px;
     height: 72px;
     width: 71px;
@@ -1004,6 +1004,18 @@
     width: 640px;
     height: 235px;
     background-color: #F5C507;
+  }
+
+  .section-3__column-twitter-text {
+    display: none;
+  }
+
+  .section-3__column-twitter_plus{
+    display: none;
+  }
+
+  .section-3__column-twitter {
+    background-color: transparent;
   }
 
   .twitter-messages {
@@ -1086,10 +1098,56 @@
     background: #37ADBF;
   }
 
+  /* SECTION-4 */
+
+  .section-4 {
+    height: 466px;
+    background-image: none;
+    background-color: #474747;
+  }
+
   .section-4__list {
     display: none;
   }
+
+  .section-4__heading {
+    height: 115px;
+  }
   .section-4__heading-text {
-    position: static;
+    position: relative;
+    top: 30px;
+    left: 18px;
+    font-size: 39px;
+    letter-spacing: 2.1px
+  }
+
+  .section-4__devices {
+    position: relative;
+    height: 262px;
+    left: 39px;
+    z-index: 1;
+  }
+
+  .section-4__circle {
+    left: 27px;
+    z-index: 2;
+  }
+
+  /* FOOTER */
+  .footer {
+    height: 43px;
+  }
+
+  .footer__logo-png {
+    position: relative;
+    height: 31px;
+    top: 11px;
+    left: 65px;
+  }
+  .footer__logo-text {
+    position: relative;
+    top: -1px;
+    left: 43px;
+    font-size: 17px; 
   }
 }
