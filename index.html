@@ -111,7 +111,7 @@
               </div>
               <div class="section-3__column-video">
                 <video class="section-3__video" poster="./assets/img/section-3__column-video_placeholder.png"
-                  width="315" height="232" controls></video>
+                  controls></video>
               </div>
             </div>
             <div class="section-3__column-twitter_container">
@@ -127,23 +127,24 @@
                   </div>
                 </div>
               </div>
-              <div class="section-3__column-twitter__posts hidden">
-                <div>
-                  <img src="./assets/img/section-3__column-twitter_post.svg" alt="post">
-                  Daily Mobile UI Design Inspiration #1
-                  via @cssauthor
+              <div class="twitter-messages">
+                <div class="twitter-message-item">
+                  <p class="twitter-message">Daily Mobile UI Design Inspiration #1</p>
+                  <p class="message-author">via @cssauthor</p>
                 </div>
-                <div>
-                  <img src="./assets/img/section-3__column-twitter_post.svg" alt="post">
-                  Daily Mobile UI Design Inspiration #1
-                  via @cssauthor
+                <div class="twitter-message-item">
+                  <p class="twitter-message">Daily Mobile UI Design Inspiration #1</p>
+                  <p class="message-author">via @cssauthor</p>
                 </div>
-                <div>
-                  <img src="./assets/img/section-3__column-twitter_post.svg" alt="post">
-                  Daily Mobile UI Design Inspiration #1
-                  via @cssauthor
+                <div class="twitter-message-item">
+                  <p class="twitter-message">Daily Mobile UI Design Inspiration #1</p>
+                  <p class="message-author">via @cssauthor</p>
                 </div>
-                <div><input type="button" value="Tweet"></div>
+                <form class="twitter-message-submit" method="POST" action="#">
+                  <input class="twit-input" type="text" name="message-field"
+                    placeholder="&nbsp;&nbsp;Your tweet message..." />
+                  <input class="twit-submit" type="submit" value="Tweet" />
+                </form>
               </div>
             </div>
           </div>
