@@ -232,6 +232,7 @@
 .section-1 {
   position: relative;
   width: 100%;
+  box-shadow:inset 0 -12px 14px -14px rgba(0,0,0,0.5);
 }
 
 .section-1__rectangle {
@@ -271,7 +272,7 @@
 }
 
 .section-1__rectangle > a:hover {
-  background-color:rgb(187, 34, 34);
+  background-color:rgb(252, 196, 159);
 }
 
 .section-1__content {
@@ -334,8 +335,57 @@
   align-items: center;
 }
 
-.section-2__column-text {
+/* SECTION-2 FOR PIXEL PERFECT*/
+
+.section-2__cloud-svg {
+  position: relative;
+  top: 11px;
+  right: 3px;
+}
+
+.section-2__cloud-text {
+  position: relative;
+  top:16px;
+  left: 9px;
+  letter-spacing: 0.4px;
   font-size: 27px;
+  color: #000000;
+  font-family: "SegoeUILight", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-2__leaf-svg {
+  position: relative;
+  bottom: 2px;
+  left: 8px;
+}
+
+.section-2__leaf-text {
+  position: relative;
+  top: 6px;
+  left: 10px;
+  font-size: 27px;
+  color: #000000;
+  font-family: "SegoeUILight", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-2__paper-airplane-svg {
+  position: relative;
+  top: 9px;
+  right: 11px;
+}
+
+.section-2__paper-airplane-text {
+  position: relative;
+  top: 12px;
+  right: 9px;
+  font-size: 27px;
+  letter-spacing: 0.5px;
   color: #000000;
   font-family: "SegoeUILight", sans-serif;
   font-weight: 300;
@@ -349,6 +399,7 @@
   background-image: url(./assets/img/section-3__background.png);
   height: 508px; /* 509px */
   width: 100%;
+  box-shadow:inset 0px 10px 10px -10px rgba(0,0,0,0.5);
 }
 
 .section-3__columns {
@@ -378,9 +429,9 @@
 .section-3__column-text_container {
   width: 341px;
   height: 233px;
-  background-color: #ec9e03;
   display: flex;
   justify-content: space-between;
+  background-color: #ec9e03;
 }
 
 .section-3__column-text {
